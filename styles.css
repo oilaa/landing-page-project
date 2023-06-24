@@ -7,12 +7,15 @@ a {
     text-decoration: none;
 }
 
+
+
+
 #container1 {
     display: flex;
 }
 
 #container1 > h3 {
-    flex: 3;
+    flex: 3 1 auto;
     size: 24px;
     color: #F9FAF8;
 }
@@ -21,6 +24,11 @@ a {
     flex: 1;
     size: 18px;
     color: #E5E7EB;
+}
+
+#container2 {
+    width: 400px;
+    height: 400px;
 }
 
 #container2 > h1 {
@@ -43,6 +51,29 @@ a {
     display: inline-block;
     border-radius: 12px;
 }
+
+#container3 {
+    background-color: grey;
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+#container4 {
+    background-color: white;
+    padding: 20px;
+}
+
+#container4 > h1 {
+    text-align: center;
+}
+
+#container4 > p {
+    
+}
+
+
 
 footer {
     text-align: center;
