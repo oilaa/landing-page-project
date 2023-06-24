@@ -2,6 +2,11 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
 }
