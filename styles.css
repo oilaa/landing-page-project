@@ -7,18 +7,44 @@ a {
     text-decoration: none;
 }
 
-.container {
+#container1 {
     display: flex;
 }
 
-.container > h3 {
+#container1 > h3 {
     flex: 3;
     size: 24px;
     color: #F9FAF8;
 }
 
-.container > h5 {
+#container1 > h5 {
     flex: 1;
     size: 18px;
+    color: #E5E7EB;
+}
+
+#container2 > h1 {
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#container2 > p {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+#container2 > button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
     color: #E5E7EB;
 }
