@@ -1,4 +1,19 @@
 body {
-    flex: auto;
     background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+}
+
+.container > h3 {
+    flex: 3;
+    size: 24px;
+    color: #F9FAF8;
+}
+
+.container > h5 {
+    flex: 1;
+    size: 18px;
+    color: #E5E7EB;
 }
