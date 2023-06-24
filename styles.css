@@ -69,8 +69,13 @@ a {
     text-align: center;
 }
 
-#container4 > p {
-    
+#container5 {
+    background-color: #E5E7EB;
+}
+
+#container5 > p {
+    color: #1F2937;
+    size: 36px;
 }
 
 
@@ -78,4 +83,5 @@ a {
 footer {
     text-align: center;
     color: #E5E7EB;
+    padding: 20px;
 }
